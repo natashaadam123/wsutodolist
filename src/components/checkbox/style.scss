@@ -1,0 +1,17 @@
+@import '../../App.scss';
+
+.checkbox {
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox:focus{
+  outline:none;
+  box-shadow: 0 0 2px 2px $custom-color;
+  background-color : $custom-color;
+}
+
+.checkbox:checked{
+  accent-color: $custom-color;
+}

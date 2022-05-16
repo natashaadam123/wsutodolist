@@ -1,0 +1,35 @@
+.container {
+  width: 26% !important;
+}
+
+.todo-list {
+  .list-header {
+    border-bottom: 1px solid gray;
+    padding-bottom: 8px;
+  }
+  .list-item {
+    margin-top: 4px;
+    .strikethrough {
+      text-decoration: line-through;
+    }
+    .btn-bin{
+      background-color: transparent;
+      border: none;
+      svg{
+        font-size: 20px;
+        color: black;
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 584px) {
+  .container {
+    width: 100% !important;
+  }
+}
